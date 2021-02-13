@@ -1,8 +1,8 @@
 // 1. Declare and assign the variables here:
 let shuttleName = 'Determination';
-let shuttlespeed = 17500;
-let marsdistance = 225000000;
-let moondistance = 384400
+let shuttleSpeed = 17500;
+let marsDistance = 225000000;
+let moonDistance = 384400
 let mpk = .621;
 
 
@@ -16,14 +16,14 @@ console.log(typeof .621);
 
 
 // Code your solution to exercises 3 and 4 here:
-let marsmiles = marsdistance * mpk;
-let marshours = marsmiles / shuttlespeed;
-let marsdays = marshours / 24;
+let marsMiles = marsDistance * mpk;
+let marsHours = marsMiles / shuttleSpeed;
+let marsDays = marsHours / 24;
 
-console.log(shuttleName + ' will take ' + marsdays + ' days to reach Mars.');
+console.log(shuttleName + ' will take ' + marsDays + ' days to reach Mars.');
 // Code your solution to exercise 5 here:
-let moonmiles = moondistance * mpk;
-let moonhours = moonmiles / shuttlespeed;
-let moondays = moonhours / 24;
+let moonMiles = moonDistance * mpk;
+let moonHours = moonMiles / shuttleSpeed;
+let moonDays = moonHours / 24;
 
-console.log(shuttleName + ' will take ' + moondays + ' days to reach the Moon.');
+console.log(shuttleName + ' will take ' + moonDays + ' days to reach the Moon.');
